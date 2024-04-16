@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		848A21812BCA4571008719F8 /* TestVaporWSServerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A21802BCA4571008719F8 /* TestVaporWSServerApp.swift */; };
+		848A21832BCA4571008719F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A21822BCA4571008719F8 /* ContentView.swift */; };
+		848A21852BCA4575008719F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848A21842BCA4575008719F8 /* Assets.xcassets */; };
+		848A21882BCA4575008719F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848A21872BCA4575008719F8 /* Preview Assets.xcassets */; };
+		848A21902BCA45B2008719F8 /* Vapor in Frameworks */ = {isa = PBXBuildFile; productRef = 848A218F2BCA45B2008719F8 /* Vapor */; };
+		848A21922BCA45DD008719F8 /* SocketServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A21912BCA45DD008719F8 /* SocketServer.swift */; };
+		84E3CCD02BCCB8390090930A /* NetworkInterfaceMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3CCCF2BCCB8390090930A /* NetworkInterfaceMonitor.swift */; };
+		84E3CCE22BCCF6020090930A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3CCE12BCCF6020090930A /* ImagePicker.swift */; };
+		84E3CCE42BCD18B20090930A /* SuspendStatusRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E3CCE32BCD18B20090930A /* SuspendStatusRecorder.swift */; };
+		84E3CD2C2BCE215E0090930A /* chuttersnap-piQY2YNDJ8k-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84E3CD2B2BCE215E0090930A /* chuttersnap-piQY2YNDJ8k-unsplash.jpg */; };
+		84E3CD2E2BCE21690090930A /* leonard-von-bibra-hep72i867oI-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84E3CD2D2BCE21690090930A /* leonard-von-bibra-hep72i867oI-unsplash.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		848A217D2BCA4571008719F8 /* TestVaporWSServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestVaporWSServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		848A21802BCA4571008719F8 /* TestVaporWSServerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVaporWSServerApp.swift; sourceTree = "<group>"; };
+		848A21822BCA4571008719F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		848A21842BCA4575008719F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		848A21872BCA4575008719F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		848A21912BCA45DD008719F8 /* SocketServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketServer.swift; sourceTree = "<group>"; };
+		848A21932BCA5A3E008719F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		84E3CCCF2BCCB8390090930A /* NetworkInterfaceMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterfaceMonitor.swift; sourceTree = "<group>"; };
+		84E3CCE12BCCF6020090930A /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		84E3CCE32BCD18B20090930A /* SuspendStatusRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuspendStatusRecorder.swift; sourceTree = "<group>"; };
+		84E3CD2B2BCE215E0090930A /* chuttersnap-piQY2YNDJ8k-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chuttersnap-piQY2YNDJ8k-unsplash.jpg"; sourceTree = "<group>"; };
+		84E3CD2D2BCE21690090930A /* leonard-von-bibra-hep72i867oI-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "leonard-von-bibra-hep72i867oI-unsplash.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848A217A2BCA4571008719F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848A21902BCA45B2008719F8 /* Vapor in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848A21742BCA4571008719F8 = {
+			isa = PBXGroup;
+			children = (
+				848A217F2BCA4571008719F8 /* TestVaporWSServer */,
+				848A217E2BCA4571008719F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		848A217E2BCA4571008719F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848A217D2BCA4571008719F8 /* TestVaporWSServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848A217F2BCA4571008719F8 /* TestVaporWSServer */ = {
+			isa = PBXGroup;
+			children = (
+				848A21932BCA5A3E008719F8 /* Info.plist */,
+				848A21802BCA4571008719F8 /* TestVaporWSServerApp.swift */,
+				848A21822BCA4571008719F8 /* ContentView.swift */,
+				848A21842BCA4575008719F8 /* Assets.xcassets */,
+				84E3CD2B2BCE215E0090930A /* chuttersnap-piQY2YNDJ8k-unsplash.jpg */,
+				84E3CD2D2BCE21690090930A /* leonard-von-bibra-hep72i867oI-unsplash.jpg */,
+				848A21862BCA4575008719F8 /* Preview Content */,
+				848A21912BCA45DD008719F8 /* SocketServer.swift */,
+				84E3CCCF2BCCB8390090930A /* NetworkInterfaceMonitor.swift */,
+				84E3CCE12BCCF6020090930A /* ImagePicker.swift */,
+				84E3CCE32BCD18B20090930A /* SuspendStatusRecorder.swift */,
+			);
+			path = TestVaporWSServer;
+			sourceTree = "<group>";
+		};
+		848A21862BCA4575008719F8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				848A21872BCA4575008719F8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		848A217C2BCA4571008719F8 /* TestVaporWSServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848A218B2BCA4575008719F8 /* Build configuration list for PBXNativeTarget "TestVaporWSServer" */;
+			buildPhases = (
+				848A21792BCA4571008719F8 /* Sources */,
+				848A217A2BCA4571008719F8 /* Frameworks */,
+				848A217B2BCA4571008719F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestVaporWSServer;
+			packageProductDependencies = (
+				848A218F2BCA45B2008719F8 /* Vapor */,
+			);
+			productName = TestVaporWSServer;
+			productReference = 848A217D2BCA4571008719F8 /* TestVaporWSServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		848A21752BCA4571008719F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					848A217C2BCA4571008719F8 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 848A21782BCA4571008719F8 /* Build configuration list for PBXProject "TestVaporWSServer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 848A21742BCA4571008719F8;
+			packageReferences = (
+				848A218E2BCA45B2008719F8 /* XCRemoteSwiftPackageReference "vapor" */,
+			);
+			productRefGroup = 848A217E2BCA4571008719F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848A217C2BCA4571008719F8 /* TestVaporWSServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		848A217B2BCA4571008719F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848A21882BCA4575008719F8 /* Preview Assets.xcassets in Resources */,
+				84E3CD2C2BCE215E0090930A /* chuttersnap-piQY2YNDJ8k-unsplash.jpg in Resources */,
+				848A21852BCA4575008719F8 /* Assets.xcassets in Resources */,
+				84E3CD2E2BCE21690090930A /* leonard-von-bibra-hep72i867oI-unsplash.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848A21792BCA4571008719F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E3CCE42BCD18B20090930A /* SuspendStatusRecorder.swift in Sources */,
+				848A21832BCA4571008719F8 /* ContentView.swift in Sources */,
+				848A21922BCA45DD008719F8 /* SocketServer.swift in Sources */,
+				84E3CCE22BCCF6020090930A /* ImagePicker.swift in Sources */,
+				848A21812BCA4571008719F8 /* TestVaporWSServerApp.swift in Sources */,
+				84E3CCD02BCCB8390090930A /* NetworkInterfaceMonitor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		848A21892BCA4575008719F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		848A218A2BCA4575008719F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		848A218C2BCA4575008719F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestVaporWSServer/Preview Content\"";
+				DEVELOPMENT_TEAM = 9QPUWNFMCM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestVaporWSServer/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Privacy - Photo Library Usage Description";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ss.TestVaporWSServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		848A218D2BCA4575008719F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestVaporWSServer/Preview Content\"";
+				DEVELOPMENT_TEAM = 9QPUWNFMCM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestVaporWSServer/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Privacy - Photo Library Usage Description";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ss.TestVaporWSServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		848A21782BCA4571008719F8 /* Build configuration list for PBXProject "TestVaporWSServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848A21892BCA4575008719F8 /* Debug */,
+				848A218A2BCA4575008719F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848A218B2BCA4575008719F8 /* Build configuration list for PBXNativeTarget "TestVaporWSServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848A218C2BCA4575008719F8 /* Debug */,
+				848A218D2BCA4575008719F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		848A218E2BCA45B2008719F8 /* XCRemoteSwiftPackageReference "vapor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vapor/vapor.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.92.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		848A218F2BCA45B2008719F8 /* Vapor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 848A218E2BCA45B2008719F8 /* XCRemoteSwiftPackageReference "vapor" */;
+			productName = Vapor;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 848A21752BCA4571008719F8 /* Project object */;
+}
